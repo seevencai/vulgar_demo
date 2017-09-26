@@ -1,7 +1,5 @@
 # -*- coding: utf8 -*-
 import sys
-reload(sys)
-sys.setdefaultencoding('utf8') 
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
 import gensim
@@ -31,7 +29,8 @@ import xgboost as xgb
 import json
 import lightgbm as lgb
 import pandas as pd
-
+reload(sys)
+sys.setdefaultencoding('utf8') 
 def normalize(v):
     n = 0.0
     for i in range(len(v)):
