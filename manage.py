@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/home/caixiwen/.conda/envs/env-cxw/bin/python
 import os
 import sys
 
